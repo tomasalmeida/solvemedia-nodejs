@@ -3,22 +3,31 @@ solvemedia-nodejs
 
 An independent node.js module that handles calling Solve Media captchas. This module is not related to Solve Media Company and it is just a help to people who want to use Solve Media products in node.js solutions.
 
-## How to use (see also https://github.com/tomasalmeida/solvemedia-nodejs/tree/master/examples)
+## How to use 
+(see http://github.com/tomasalmeida/solvemedia-nodejs/tree/master/examples)
 
-Create a new instance of solvemedia, setting your three keys
+### Display the captcha
 
 ```js
   var Solvemedia = require('solvemedia');
+  
+  //Create a new instance of solvemedia, setting your three keys
   var sm = new Solvemedia('Challenge Key','Verification Key','Authentication Hash Key');
 
   // First: display the captcha
   var html = sm.toHTML();
-	// Display a formular
-	
-	.
-	.
-	.
-	
+  // Display a form
+
+```
+
+### Validate user response
+
+```js
+  var Solvemedia = require('solvemedia');
+  
+  //Create a new instance of solvemedia, setting your three keys
+  var sm = new Solvemedia('Challenge Key','Verification Key','Authentication Hash Key');
+
   //Second Step: validate a response
 	sm.verify(req.body.adcopy_response,     // User's response
 	          req.body.adcopy_challenge,    // Challenge id
@@ -31,6 +40,7 @@ Create a new instance of solvemedia, setting your three keys
             // Oooops! User wrongly answered... 
             // handle this case (reshow the form, show a message...)
             // errorMessage contains an error Message like "wrong answer"
+            ...
         }
     });
 	
