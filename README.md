@@ -40,26 +40,26 @@ SolveMedia API offers some customization to your captcha (language and color)
 The complete list of customization is:
 
 ```js
-sm.LANG.EN
-sm.LANG.DE
-sm.LANG.FR
-sm.LANG.ES
-sm.LANG.IT
-sm.LANG.YI
-sm.LANG.JA
-sm.LANG.CA
-sm.LANG.PL
-sm.LANG.HU
-sm.LANG.SV
-sm.LANG.NO
-sm.LANG.PT
-sm.LANG.NL
-sm.LANG.TR
+<your instance>.LANG.EN
+<your instance>.LANG.DE
+<your instance>.LANG.FR
+<your instance>.LANG.ES
+<your instance>.LANG.IT
+<your instance>.LANG.YI
+<your instance>.LANG.JA
+<your instance>.LANG.CA
+<your instance>.LANG.PL
+<your instance>.LANG.HU
+<your instance>.LANG.SV
+<your instance>.LANG.NO
+<your instance>.LANG.PT
+<your instance>.LANG.NL
+<your instance>.LANG.TR
 
-sm.THEME.BLACK
-sm.THEME.WHITE
-sm.THEME.PURPLE
-sm.THEME.RED
+<your instance>.THEME.BLACK
+<your instance>.THEME.WHITE
+<your instance>.THEME.PURPLE
+<your instance>.THEME.RED
 ```
 
 ### Validate user response
