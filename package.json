@@ -1,7 +1,7 @@
 {
   "name": "solvemedia",
   "description": "A Node.JS module that handles calls to SolveMedia API",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Tomas Dias Almeida <tomas.almeida@gmail.com> (twitter @tomasalmeida)",
   "repository": {
     "type": "git",

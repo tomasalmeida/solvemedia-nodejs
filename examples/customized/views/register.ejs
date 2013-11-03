@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Solvemedia test!</title>
+    </head>    
+    <body>
+        <form method='POST' action='./validate'>
+
+            <% if (errorMessage != '') { %>
+                <h2><%= errorMessage %></h2><p>
+            <% } %>    
+
+            <h2>Write your name: </h2>
+            <input type="text" name="name" value='<%= name %>' />
+
+
+            <h2>Solve the puzzle: </h2>
+
+            <%- captcha %>    
+           
+            <input type="submit" value='Submit Form'/>
+        </form>
+    </body>
+</html>       
