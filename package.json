@@ -25,5 +25,10 @@
     "solve",
     "media"
   ],
-  "license": "GPL v3"
+  "homepage": "https://github.com/tomasalmeida/solvemedia-nodejs/",
+  "bugs":{
+    "url" : "http://github.com/tomasalmeida/solvemedia-nodejs/issues",
+    "email" : "tomas.almeida@gmail.com"
+  }
+  "license": "MIT"
 }
