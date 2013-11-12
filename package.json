@@ -1,7 +1,7 @@
 {
   "name": "solvemedia",
   "description": "A Node.JS module that handles calls to SolveMedia API (display and verification).",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Tomas Dias Almeida <tomas.almeida@gmail.com> (twitter @tomasalmeida)",
   "repository": {
     "type": "git",
@@ -30,5 +30,5 @@
     "url" : "http://github.com/tomasalmeida/solvemedia-nodejs/issues",
     "email" : "tomas.almeida@gmail.com"
   }
-  "license": "Apache v2 License"
+  "license" : "Apache v2 License"
 }
