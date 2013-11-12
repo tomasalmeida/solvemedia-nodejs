@@ -91,4 +91,4 @@ The complete list of customization is:
 
 ## License
 
-GNU GENERAL PUBLIC LICENSE (http://www.gnu.org/licenses/gpl-3.0.txt)
+MIT License
