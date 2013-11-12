@@ -91,4 +91,4 @@ The complete list of customization is:
 
 ## License
 
-MIT License
+Apache v2 License
